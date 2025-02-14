@@ -1,5 +1,5 @@
 -- Pull in the wezterm API
-local wezterm = require 'wezterm'
+local wezterm = require("wezterm")
 
 -- This will hold the configuration.
 local config = wezterm.config_builder()
@@ -9,9 +9,9 @@ config = {
 	automatically_reload_config = true,
 	color_scheme = "Nord (Gogh)",
 	enable_tab_bar = false,
-  	window_close_confirmation = "NeverPrompt",
+	window_close_confirmation = "NeverPrompt",
 	window_decorations = "RESIZE",
-	font = wezterm.font("FiraCode Nerd Font", {weight="Medium", stretch="Normal", style="Normal"}),
+	font = wezterm.font("FiraCode Nerd Font", { weight = "Medium", stretch = "Normal", style = "Normal" }),
 	font_size = 18,
 	background = {
 		{
