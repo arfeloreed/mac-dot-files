@@ -8,7 +8,7 @@ local config = wezterm.config_builder()
 config = {
 	automatically_reload_config = true,
 	color_scheme = "Nord (Gogh)",
-	enable_tab_bar = false,
+	enable_tab_bar = true,
 	window_close_confirmation = "NeverPrompt",
 	window_decorations = "RESIZE",
 	font = wezterm.font("FiraCode Nerd Font", { weight = "Medium", stretch = "Normal", style = "Normal" }),
